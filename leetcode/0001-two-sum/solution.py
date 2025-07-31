@@ -1,10 +1,14 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        seen={}
-        for i,num in enumerate(nums):
-            if target-num in seen:
-                return[seen[target-num],i]
-            seen[num]=i
+        d={}
+        i=0
+        while i<len(nums):
+            if nums[i] in d.values():
+                for key,value in d.items():
+                    if value==nums[i]:
+                        return [key,i]
+            d[i]=target-nums[i]
+            i+=1
         """
         :type nums: List[int]
         :type target: int
