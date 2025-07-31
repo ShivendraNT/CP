@@ -1,11 +1,11 @@
+from collections import Counter
 class Solution(object):
     def isAnagram(self, s, t):
-        p=sorted(s)
-        q=sorted(t)
+        p=Counter(s)
+        q=Counter(t)
         if p==q:
             return True
-        else:
-            return False
+        return False
         """
         :type s: str
         :type t: str
