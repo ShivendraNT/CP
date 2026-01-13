@@ -1,11 +1,14 @@
 class Solution(object):
     def maxSubArray(self, nums):
-        total=curr_sum=nums[0]
-
-        for num in nums[1:]:
-            curr_sum=max(num,curr_sum+num)
-            total=max(total,curr_sum)
-        return total
+        sumi=0
+        maxi=nums[0]
+        for i in nums:
+            sumi+=i
+            if(sumi>maxi):
+                maxi=sumi
+            if (sumi<0):
+                sumi=0
+        return maxi
         """
         :type nums: List[int]
         :rtype: int
