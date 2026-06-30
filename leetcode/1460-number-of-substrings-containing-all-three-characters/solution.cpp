@@ -2,14 +2,14 @@ class Solution {
 public:
     int numberOfSubstrings(string s) {
         int l = 0, ans = 0, r = 0;
-        unordered_map<char, int> mpp; 
+        int arr[]={0,0,0};
         
         while (r < s.size()) {
-            mpp[s[r]]++;
+            arr[s[r]-'a']++;
             
-            while (mpp['a'] > 0 && mpp['b'] > 0 && mpp['c'] > 0) {
+            while (arr[0] > 0 && arr[1] > 0 && arr[2] > 0) {
                 ans += (s.size() - r);
-                mpp[s[l]]--;
+                arr[s[l]-'a']--;
                 l++;
             }
             r++;
