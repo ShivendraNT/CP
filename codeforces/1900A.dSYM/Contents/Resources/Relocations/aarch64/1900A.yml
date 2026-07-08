@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shivendranarayantripathi/Desktop/CP/codeforces/1900A'
+relocations:
+  - { offset: 0x16065, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x61ABA, symBinAddr: 0x10000C050, symSize: 0x0 }
+  - { offset: 0x16280, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_1900A.cpp, symObjAddr: 0x238, symBinAddr: 0x100007E1C, symSize: 0x14 }
+  - { offset: 0x16297, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x1FC, symBinAddr: 0x100007DE0, symSize: 0x3C }
+  - { offset: 0x162AE, size: 0x8, addend: 0x0, symName: __ZSt3maxIiERKT_S2_S2_, symObjAddr: 0x1BC, symBinAddr: 0x100007DA8, symSize: 0x38 }
+  - { offset: 0x162F6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x148, symBinAddr: 0x100007D34, symSize: 0x74 }
+  - { offset: 0x16345, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x100007BEC, symSize: 0x148 }
+...
