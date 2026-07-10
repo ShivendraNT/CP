@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shivendranarayantripathi/Desktop/CP/codeforces/1877A'
+relocations:
+  - { offset: 0x1603A, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x61BD0, symBinAddr: 0x10000C048, symSize: 0x0 }
+  - { offset: 0x16255, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_1877A.cpp, symObjAddr: 0x390, symBinAddr: 0x100007E58, symSize: 0x14 }
+  - { offset: 0x1626C, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x354, symBinAddr: 0x100007E1C, symSize: 0x3C }
+  - { offset: 0x1628A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2E0, symBinAddr: 0x100007DA8, symSize: 0x74 }
+  - { offset: 0x162D9, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x100007AC8, symSize: 0x2E0 }
+...

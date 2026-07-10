@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shivendranarayantripathi/Desktop/CP/codeforces/1845A'
+relocations:
+  - { offset: 0x2EAF4, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xD7F9F, symBinAddr: 0x10000C098, symSize: 0x0 }
+  - { offset: 0x2F84A, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_1845A.cpp, symObjAddr: 0x578, symBinAddr: 0x100007B98, symSize: 0x14 }
+  - { offset: 0x2F862, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x53C, symBinAddr: 0x100007B5C, symSize: 0x3C }
+  - { offset: 0x2F87E, size: 0x8, addend: 0x0, symName: __ZNSt15__new_allocatorIiE10deallocateEPim, symObjAddr: 0x4A4, symBinAddr: 0x100007B28, symSize: 0x34 }
+  - { offset: 0x2F8F4, size: 0x8, addend: 0x0, symName: __ZSt8_DestroyIPiEvT_S1_, symObjAddr: 0x48C, symBinAddr: 0x100007B10, symSize: 0x18 }
+  - { offset: 0x2F9A7, size: 0x8, addend: 0x0, symName: __ZNSt12_Vector_baseIiSaIiEE19_M_get_Tp_allocatorEv, symObjAddr: 0x478, symBinAddr: 0x100007AFC, symSize: 0x14 }
+  - { offset: 0x2F9D1, size: 0x8, addend: 0x0, symName: __ZNSt12_Vector_baseIiSaIiEE13_M_deallocateEPim, symObjAddr: 0x408, symBinAddr: 0x100007A8C, symSize: 0x70 }
+  - { offset: 0x2FAA4, size: 0x8, addend: 0x0, symName: __ZNSt6vectorIiSaIiEED1Ev, symObjAddr: 0x3AC, symBinAddr: 0x100007A30, symSize: 0x5C }
+  - { offset: 0x2FB2C, size: 0x8, addend: 0x0, symName: __ZNSt12_Vector_baseIiSaIiEED2Ev, symObjAddr: 0x34C, symBinAddr: 0x1000079D0, symSize: 0x60 }
+  - { offset: 0x2FB98, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x28C, symBinAddr: 0x100007910, symSize: 0xC0 }
+  - { offset: 0x2FBC8, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x20, symBinAddr: 0x1000076A4, symSize: 0x26C }
+  - { offset: 0x2FCCE, size: 0x8, addend: 0x0, symName: __ZNSt12_Vector_baseIiSaIiEE12_Vector_implD1Ev, symObjAddr: 0x0, symBinAddr: 0x100007684, symSize: 0x20 }
+...
