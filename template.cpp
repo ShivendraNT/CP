@@ -3,14 +3,22 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-    cout<<"Hello";
+    
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+
     int t = 1;
-    cin >> t;  
-    for (int i = 0; i < t; i++) solve();
+    cin >> t;
+    while (t--) {
+        solve();
+    }
     return 0;
 }
