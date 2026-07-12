@@ -32,3 +32,10 @@ Codeforces: CF31
 10 Jul | CP31 800 #28 | 1783A | ~3 mins | Made some logic myself by writing shit on pen, turns out it works, so yeah
 10 Jul | CP31 800 #29 | 1777A | ~10 mins | Made some syntactical error rest was fine
 10 Jul | CP31 800 #29 | 1766A | ~7 mins | pretty decent
+10 Jul | CP31 800 #29 | 1766A | ~5 mins | Pretty easy concept, could get the logic through test cases only
+
+11 Jul | LC Daily 2685 | ~10 mins | Got the concept right, made a small logical mistake in calculating the number of edges
+11 Jul | CP31 900 #1 | ~18 mins | Got the concept clear, did mistakes in code
+11 Jul | CP31 900 #2 | ~10 mins | Got the idea clear, made a mistake to count odd palindromes
+11 Jul | CP31 900 #3 | X | Tried some wrong logic, turns out it was simply finding min and max possible sum
+11 Jul | CP31 900 #4 | ~8 mins | Got a bit wrong logic in first try, got it right in the second try
