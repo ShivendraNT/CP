@@ -1,0 +1,8 @@
+*.dSYM/
+*.out
+*.exe
+a.out
+template
+input.txt
+output.txt
+.DS_Store
