@@ -39,3 +39,7 @@ Codeforces: CF31
 11 Jul | CP31 900 #2 | ~10 mins | Got the idea clear, made a mistake to count odd palindromes
 11 Jul | CP31 900 #3 | X | Tried some wrong logic, turns out it was simply finding min and max possible sum
 11 Jul | CP31 900 #4 | ~8 mins | Got a bit wrong logic in first try, got it right in the second try
+
+12 Jul | LC Weekly Contest 510 | Q1 | ~6 mins |Pretty standard, all time taken was coding it
+12 Jul | LC Weekly Contest 510 | Q2 | ~20 mins | Got the logic down slowly while solving, Did 2 wrong submission cuz i messed up the mod thing
+12 Jul | LC Weekly Contest 510 | Q3 | ~40 mins | Constructed an algorithm which starts from end and backtracks paths through BFS, did work for the given test cases but not for the submission cases, will see the solution tomorrow.

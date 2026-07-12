@@ -5,23 +5,21 @@ typedef long long ll;
 void solve() {
     int n;
     cin>>n;
-    vector<ll> a(n);
-    for(int i=0;i<n;i++){
-        cin>>a[i];
-    }
-    if(n%2==0){
-        cout<<2<<endl;
-        cout<<1<<" "<<n<<endl;
-        cout<<1<<" "<<n<<endl;
-    }
-    else{
-        cout<<4<<endl;
-        cout<<1<<" "<<n-1<<endl;
-        cout<<1<<" "<<n-1<<endl;
-        cout<<n-1<<" "<<n<<endl;
-        cout<<n-1<<" "<<n<<endl;
-    }
+    int even=2;
 
+    int odd;
+    (n%2==0)?odd=n-1:odd=n-2;
+    for(int i=0;i<n;i++){
+        if(i%2==0){
+            cout<<even<<" ";
+            even+=2;
+        }
+        else{
+            cout<<odd<<" ";
+            odd-=2;
+        }
+    }
+    cout<<endl;
 }
 
 int main() {
