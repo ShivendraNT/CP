@@ -1,4 +1,8 @@
-### Week 1- 8 july
+## REDO QUEUE (clear before adding new)
+- [ ] CF Div2 D — due 14 Jul
+- [ ] CF Div2 F — due 14 Jul
+
+### Week 1-> 8 july
 Codeforces: CF31
 08 Jul | CP31 800 #1 | 1903A | X |Tried all sorts of combination by reversing, hardcoded some statement to reverse 100 times, did not think that it straight up resembles binary search. Did cross my mind that if we directly put condition >1 it works, but dicarded as "Too naive"
 08 Jul | CP31 800 #2 | 1901A | ~10 mins | Tried binary search first, mid implementation realised the better way to get the maxdifference, coded it successfully then
@@ -43,3 +47,8 @@ Codeforces: CF31
 12 Jul | LC Weekly Contest 510 | Q1 | ~6 mins |Pretty standard, all time taken was coding it
 12 Jul | LC Weekly Contest 510 | Q2 | ~20 mins | Got the logic down slowly while solving, Did 2 wrong submission cuz i messed up the mod thing
 12 Jul | LC Weekly Contest 510 | Q3 | ~40 mins | Constructed an algorithm which starts from end and backtracks paths through BFS, did work for the given test cases but not for the submission cases, will see the solution tomorrow.
+
+
+### Week 2-> 13 July
+13 Jul | LC Daily 1291 | Pretty easy, got the intuition right, coded it up right too
+13 Jul | LC Weekly Upsolve 3988 | Got to know that we could have just hardcoded to find the pattern and not use DP and stuff
