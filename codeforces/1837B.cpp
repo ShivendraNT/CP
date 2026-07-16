@@ -3,7 +3,25 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-
+    int n;
+    cin>>n;
+    string s;
+    cin>>s;
+    int maxlen=0;
+    int len=1;
+    char curr=s[0];
+    for(int i=1;i<n;i++){
+        if(s[i]==curr){
+            len++;
+        }
+        else{
+            curr=s[i];
+            maxlen=max(maxlen,len);
+            len=1;
+        }
+    }
+    maxlen=max(maxlen,len);
+    cout<<maxlen+1<<'\n';
 }
 
 int main() {

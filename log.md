@@ -1,7 +1,3 @@
-## REDO QUEUE (clear before adding new)
-- [ ] CF Div2 D — due 14 Jul
-- [ ] CF Div2 F — due 14 Jul
-
 ### Week 1-> 8 july
 Codeforces: CF31
 08 Jul | CP31 800 #1 | 1903A | X |Tried all sorts of combination by reversing, hardcoded some statement to reverse 100 times, did not think that it straight up resembles binary search. Did cross my mind that if we directly put condition >1 it works, but dicarded as "Too naive"
@@ -52,3 +48,6 @@ Codeforces: CF31
 ### Week 2-> 13 July
 13 Jul | LC Daily 1291 | Pretty easy, got the intuition right, coded it up right too
 13 Jul | LC Weekly Upsolve 3988 | Got to know that we could have just hardcoded to find the pattern and not use DP and stuff
+16 Jul | CP31 #6 | 1855B | 5min | Pretty easy, got the pattern correct, stored input in int, should have stored in Long Long
+16 Jul | CP31 #7 | 1850D | 5:30 min | Got the intuition right, solved it too, pretty easy
+16 Jul | CP31 #8 | 1837B | ~3:20 min | Did something wrong first, kept track of an element, got wrong answer, changed to finding the max length of continous same sign, worked

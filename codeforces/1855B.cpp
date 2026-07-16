@@ -3,23 +3,13 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-    int n;
+    ll n;
     cin>>n;
-    int even=2;
-
-    int odd;
-    (n%2==0)?odd=n-1:odd=n-2;
-    for(int i=0;i<n;i++){
-        if(i%2==0){
-            cout<<even<<" ";
-            even+=2;
-        }
-        else{
-            cout<<odd<<" ";
-            odd-=2;
-        }
+    int num=1;
+    while(n%num==0){
+        num++;
     }
-    cout<<endl;
+    cout<<num-1<<endl;
 }
 
 int main() {
