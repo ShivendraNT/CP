@@ -1,22 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+
+int gcd(int a, int b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
 
 void solve() {
-    ll n,c;
-    cin>>n>>c;
-    vector<ll> a(n);
-    ll sum=0;
-    for(int i=0;i<n;i++){cin>>a[i];sum+=a[i];}
-    sort(a.begin(),a.end());          // ascending -> smallest give largest c-a
-    ll ans=sum-c*n;
-    ll half=n/2;
-    for(int i=0;i<half;i++){
-        ll g=c-a[i];
-        if(g<=0)break;                // rest only smaller, safe to stop
-        ans+=g;
+    int n;
+    cin >> n;
+    
+    int ans = 0;
+    for (int i = 1; i <= n; i++) {
+        int x;
+        cin >> x;
+        int diff = abs(x - i);
+        
+        ans = gcd(ans, diff);
     }
-    cout<<ans<<"\n";
+    
+    cout << ans << '\n';
 }
 
 int main() {

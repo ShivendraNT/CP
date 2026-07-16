@@ -8,12 +8,12 @@ void solve() {
     vector<ll> a(n);
     ll sum=0;
     for(int i=0;i<n;i++){cin>>a[i];sum+=a[i];}
-    sort(a.begin(),a.end());          // ascending -> smallest give largest c-a
+    sort(a.begin(),a.end());
     ll ans=sum-c*n;
     ll half=n/2;
     for(int i=0;i<half;i++){
         ll g=c-a[i];
-        if(g<=0)break;                // rest only smaller, safe to stop
+        if(g<=0)break;
         ans+=g;
     }
     cout<<ans<<"\n";

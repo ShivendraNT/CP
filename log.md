@@ -51,3 +51,7 @@ Codeforces: CF31
 16 Jul | CP31 #6 | 1855B | 5min | Pretty easy, got the pattern correct, stored input in int, should have stored in Long Long
 16 Jul | CP31 #7 | 1850D | 5:30 min | Got the intuition right, solved it too, pretty easy
 16 Jul | CP31 #8 | 1837B | ~3:20 min | Did something wrong first, kept track of an element, got wrong answer, changed to finding the max length of continous same sign, worked
+16 Jul | Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2) | Solved A,B and D1 | ~30 - 45 mins each 
+16 Jul | CP31 #9 | 1828B | ~10 mins | Did not understand the question fully, took a hint and got the answer after it
+16 Jul | CP31 #10 | 1807D | ~5 mins | Initial approach was long, got TLE cuz i was looping again and again, had to take a hint, turn out we had to use prefix sum in this, so did it
+16 Jul | CP31 #11 | 1794B | ~ 4mins | pretty easy stuff

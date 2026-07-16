@@ -3,20 +3,27 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-    ll n,c;
-    cin>>n>>c;
-    vector<ll> a(n);
-    ll sum=0;
-    for(int i=0;i<n;i++){cin>>a[i];sum+=a[i];}
-    sort(a.begin(),a.end());          // ascending -> smallest give largest c-a
-    ll ans=sum-c*n;
-    ll half=n/2;
-    for(int i=0;i<half;i++){
-        ll g=c-a[i];
-        if(g<=0)break;                // rest only smaller, safe to stop
-        ans+=g;
+    int n;
+    cin>>n;
+    int prev;
+    cin>>prev;
+    if(prev==1){
+        prev++;
     }
-    cout<<ans<<"\n";
+    cout<<prev<<" ";
+    for(int i=1;i<n;i++){
+        int x;
+        cin>>x;
+        if(x==1){
+            x++;
+        }
+        if(x%prev==0){
+            x++;
+        }
+        cout<<x<<" ";
+        prev=x;
+    }
+    cout<<'\n';
 }
 
 int main() {
