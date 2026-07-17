@@ -55,3 +55,15 @@ Codeforces: CF31
 16 Jul | CP31 #9 | 1828B | ~10 mins | Did not understand the question fully, took a hint and got the answer after it
 16 Jul | CP31 #10 | 1807D | ~5 mins | Initial approach was long, got TLE cuz i was looping again and again, had to take a hint, turn out we had to use prefix sum in this, so did it
 16 Jul | CP31 #11 | 1794B | ~ 4mins | pretty easy stuff
+16 Jul | CP31 #12 | 1726A | ~10 mins| I did something that was not right, dont know what exactly, but the hints and the answer made sense and that worked
+17 Jul | LC Weekly 508 3974 | ~2 mins | Pretty easy
+17 Jul | LC Weekly 508 3975 | ~12 mins | Logic was not that hard, coding it was difficult
+17 Jul | LC Weekly 508 3976 | ~20 mins | Took help in doing this, was a difficult questions but understood it now
+17 Jul | LC Weekly 507 3968 | ~2 mins | Pretty easy
+17 Jul | LC Weekly 507 3969 | ~ 4 mins | Made a minor mistake in calculating the digits, but got it fixed
+17 Jul | LC BiWeekly 185 3963 | ~2 mins | Pretty easy
+17 Jul | LC BiWeekly 185 3964 | ~6 mins | Wrote a code which worked fine but got TLE, optimized the code using hints, worked
+17 Jul | CP31 #13 | 1696B | ~ 4 mins | Did not know what MEX meant, searched it up and did it
+17 Jul | CP31 #14 | 1675B | ~ 4 mins | Got the greedy approach clear, made a mistake in looping, fixed it
+17 Jul | CP31 #15 | 1666D | ~4 mins | Easy work
+17 Jul | CP31 #15 | 1665B | ~5 mins | Concept was pretty easy, used hashmap to get max element, got TLE, so used sorted array only
