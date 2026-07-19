@@ -67,3 +67,5 @@ Codeforces: CF31
 17 Jul | CP31 #14 | 1675B | ~ 4 mins | Got the greedy approach clear, made a mistake in looping, fixed it
 17 Jul | CP31 #15 | 1666D | ~4 mins | Easy work
 17 Jul | CP31 #15 | 1665B | ~5 mins | Concept was pretty easy, used hashmap to get max element, got TLE, so used sorted array only
+19 Jul | Leetcode Weekly | A,B,C Done|
+19 Jul | LC Daily | ~10 mins | was a bit difficult of the string manipulation, i did a solution and it worked
