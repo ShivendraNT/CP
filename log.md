@@ -69,3 +69,7 @@ Codeforces: CF31
 17 Jul | CP31 #15 | 1665B | ~5 mins | Concept was pretty easy, used hashmap to get max element, got TLE, so used sorted array only
 19 Jul | Leetcode Weekly | A,B,C Done|
 19 Jul | LC Daily | ~10 mins | was a bit difficult of the string manipulation, i did a solution and it worked
+19 Jul | CP31 #18 | 1607 B | ~5 mins | Pretty easy, just made some maths mistake
+
+### Week 3 -> 22 July
+22 Jul | CP31 #19 | 1606A | ~ 5 mins | Pretty easy
