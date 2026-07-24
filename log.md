@@ -73,3 +73,6 @@ Codeforces: CF31
 
 ### Week 3 -> 22 July
 22 Jul | CP31 #19 | 1606A | ~ 5 mins | Pretty easy
+24 Jul | CP31 #24 | 1543A | ~ 5mins | Standard Logic
+24 Jul | CP31 #25 | 1537B | ~5 mins | I overcomplicated the logic a bit otherwise thinking was right
+ 
