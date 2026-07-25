@@ -7,7 +7,6 @@ void solve() {
     cin>>n;
     int msb = 31 - __builtin_clz(n);
 
-    // Answer is (2^msb) - 1
     int ans = (1 << msb) - 1;
 
     cout << ans << '\n';
