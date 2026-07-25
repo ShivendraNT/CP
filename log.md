@@ -75,4 +75,13 @@ Codeforces: CF31
 22 Jul | CP31 #19 | 1606A | ~ 5 mins | Pretty easy
 24 Jul | CP31 #24 | 1543A | ~ 5mins | Standard Logic
 24 Jul | CP31 #25 | 1537B | ~5 mins | I overcomplicated the logic a bit otherwise thinking was right
+25 Jul | CP31 #26 | | Pretty easy
+25 Jul | CP31 #28 | 1471A | ~5 mins | My logic was a tiny bit off but was fixed
+25 Jul | CP31 #29 | 1380A | ~3 mins | Code was easy and correct, did return early which resulted in stream input error or wtv, so had to change to normal array
+25 Jul | CP31 #30 | 1373B | ~3 mins | Pretty easy stack implementation
+25 Jul | Leetcode 3/4 Previous Weekly | A and B easy solve, C struggled a bit
+25 Jul | Bit Manipulation | 579 A | ~ 2 min | It was pretty easy
+25 Jul | Bit Manipulation | 467B | ~ 5 mins | Easy work, thought it would not be accepted and there will be a catch but easy
+25 Jul | Bit Manipulation | 1527A | ~ 5mins | Wrote a code at O(n) got TLE, found the real solution, did it
+
  

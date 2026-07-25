@@ -3,6 +3,14 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
+    int n;
+    cin>>n;
+    int cnt=0;
+    while(n){
+        cnt++;
+        n&=n-1;
+    }
+    cout<<cnt<<'\n';
 }
 
 int main() {
@@ -15,7 +23,6 @@ int main() {
 #endif
 
     int t = 1;
-    cin >> t;
     while (t--) {
         solve();
     }

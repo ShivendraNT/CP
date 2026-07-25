@@ -3,6 +3,14 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
+    int n;
+    cin>>n;
+    int msb = 31 - __builtin_clz(n);
+
+    // Answer is (2^msb) - 1
+    int ans = (1 << msb) - 1;
+
+    cout << ans << '\n';
 }
 
 int main() {
