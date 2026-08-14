@@ -1,50 +1,44 @@
-int merge(vector<int> &nums,int low,int mid,int high){
-    vector<int> temp;
-    int cnt=0;
-    int left=low;
-    int right=mid+1;
-    int j = mid + 1;
-    for (int i = low; i <= mid; i++) {
-        while (j <= high && (long long)nums[i] > 2LL * nums[j]) j++;
-            cnt += (j - (mid + 1));
-        }
-    while(left<=mid&&right<=high){
-        if (nums[left]<=nums[right]){
-            temp.push_back(nums[left]);
-            left++;
-        }
-        else{
-            temp.push_back(nums[right]);
-            right++;
-        }
-    }
-    while(left<=mid){
-        temp.push_back(nums[left]);
-        left++;
-    }
-    while(right<=high){
-        temp.push_back(nums[right]);
-        right++;
-    }
-    for (int i=low;i<=high;i++){
-        nums[i]=temp[i-low];
-    }
-    return cnt;
-}
-int mergesort(vector<int> &nums,int low,int high){
-    if (low>=high) return 0;
-    int cnt=0;
-    int mid=(low+high)/2;
-    cnt+=mergesort(nums,low,mid);
-    cnt+=mergesort(nums,mid+1,high);
-    cnt+=merge(nums,low,mid,high);
-    return cnt;
-}
-
 class Solution {
 public:
+
+    vector<long long> bit;
+    int n;
+
+
+    long long query(int i){
+        long long s=0;
+        while(i>0){
+            s+=bit[i];
+            i-=i&(-i);
+        }
+        return s;
+    }
+
+    void update(int i,long long delta){
+        while(i<=n){
+            bit[i]+=delta;
+            i+=i&(-i);
+        }
+    }
+
     int reversePairs(vector<int>& nums) {
-        int cnt=mergesort(nums,0,nums.size()-1);
-        return cnt;
+        
+        vector<long long> b;
+        for(int x : nums){ b.push_back(x); b.push_back(2LL*x); }
+        sort(b.begin(),b.end());
+        b.erase(unique(b.begin(),b.end()),b.end());
+        n=b.size();
+        bit.resize(n+2,0);
+
+        auto rk = [&](long long v){
+    return (int)(lower_bound(b.begin(), b.end(), v) - b.begin()) + 1;
+};
+        long long inv=0;
+        int m = nums.size();
+        for(int i=m-1;i>=0;i--){
+            inv += query(rk(nums[i]) - 1);
+            update(rk(2LL * nums[i]), 1);
+        }
+        return inv;
     }
 };
